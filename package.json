@@ -1,0 +1,36 @@
+{
+  "name": "json-icalendar",
+  "version": "0.0.1",
+  "description": "JSON iCalendar binding",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zazukoians/json-icalendar.git"
+  },
+  "keywords": [
+    "iCalendar",
+    "JSON"
+  ],
+  "author": "Thomas Bergwinkl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zazukoians/json-icalendar/issues"
+  },
+  "homepage": "https://github.com/zazukoians/json-icalendar",
+  "dependencies": {
+    "body-parser": "=1.8.*",
+    "deep-equal": "=0.2.*",
+    "moment-timezone": "=0.2.*",
+    "underscore": "=1.7.*",
+    "uuid": "=1.4.*"
+  },
+  "devDependencies": {
+    "mocha": "=1.21.*",
+    "morgan": "=1.3.*",
+    "supertest": "=0.13.*"
+  },
+  "readmeFilename": "README.md"
+}
