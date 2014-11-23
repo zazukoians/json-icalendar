@@ -8,16 +8,16 @@ var
 
 var event1 = {
   "@id": "http://calendar.bergnet.org/2014-09-03-11-00#event",
-  "startDate": "2014-09-03T11:00:00+02:00",
-  "endDate": "2014-09-03T12:00:00+02:00",
+  "startDate": "2014-11-02T11:00:00+02:00",
+  "endDate": "2014-11-02T12:00:00+02:00",
   "description": "Test",
   "location": "Landshut"
 };
 
 var event2 = {
   "@id": "http://calendar.bergnet.org/2014-09-05-21-00#event",
-  "startDate": "2014-09-05T21:00:00Z",
-  "endDate": "2014-09-05T23:00:00Z",
+  "startDate": "2014-11-01T21:00:00Z",
+  "endDate": "2014-11-01T23:00:00Z",
   "description": "Test",
   "location": "Weng",
   "attendee": [

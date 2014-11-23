@@ -475,11 +475,13 @@ describe('components', function () {
       event.addProperty('SUMMARY', 'Summary');
       event.addProperty('LOCATION', 'Location1');
       event.addProperty('LOCATION', 'Location2');
+      event.addProperty('ATTENDEE', 'http://example.org/card#me');
 
       assert.deepEqual(event.toJSON(), {
         '@context': 'http://schema.org',
         '@id': 'http://example.org',
         '@type': 'Event',
+        attendee: 'http://example.org/card#me',
         description: 'Summary',
         endDate: '2014-09-03T11:00:00.000Z',
         location: [ 'Location1', 'Location2' ],
@@ -500,6 +502,7 @@ describe('components', function () {
         '@context': 'http://schema.org',
         '@id': 'http://example.org',
         '@type': 'Event',
+        attendee: 'http://example.org/card#me',
         description: 'Summary',
         endDate: '2014-09-03T11:00:00.000Z',
         location: [ 'Location1', 'Location2' ],

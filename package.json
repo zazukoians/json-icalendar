@@ -1,6 +1,6 @@
 {
   "name": "json-icalendar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JSON iCalendar binding",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   "dependencies": {
     "body-parser": "=1.8.*",
     "deep-equal": "=0.2.*",
+    "express": "4.10.*",
     "moment-timezone": "=0.2.*",
     "underscore": "=1.7.*",
     "uuid": "=1.4.*"
